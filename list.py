@@ -22,3 +22,26 @@ list3.remove("e")
 #del list3[2]
 #del list3[1:5]
 print(list3)
+
+#List Are also initializes by an New Methode 
+#Called List Comprehension 
+
+l=[i for i in range(10)]
+print(l)
+
+#here we iterate i to a range and insert every element
+
+l1=[i for i in range(10) if i%2==0]
+print(l1)
+
+# WE Can also use if condition
+
+l2=[]
+
+for i in range(10):
+  if i%2==0:
+    l2.append(i)
+
+print(l2)
+
+#this is the expanded for of the above list comprehension form
